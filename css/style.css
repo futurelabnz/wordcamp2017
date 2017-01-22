@@ -14,6 +14,7 @@ Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-rea
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+@import url("https://fonts.googleapis.com/css?family=SpaceMono");
 /*-------------------------------------------------------------
 1.0 Normalize
 Styles based on Normalize v5.0.0 @link https://github.com/necolas/normalize.css
@@ -416,7 +417,7 @@ pre {
   padding: 1.6em; }
 
 code, kbd, tt, var {
-  font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+  font-family: SpaceMono;
   font-size: 15px;
   font-size: 0.9375rem; }
 
