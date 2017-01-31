@@ -3394,13 +3394,16 @@ embed, iframe, object {
 	
 	/* Main Navigation */
 	.js .menu-toggle, .js .dropdown-toggle {
-		display: none;
+		display: block;
 		float: right;
 		font-size: 3em;
 		padding: 0;
 		text-transform: lowercase;
 		font-style: italic;
 	}
+        .js .dropdown-toggle{
+            display: none;
+        }
 	
 	.main-navigation {
 		width: auto;
