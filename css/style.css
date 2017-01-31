@@ -1395,11 +1395,11 @@ a:focus .nav-title, a:hover .nav-title {
 }
 
 .menu-toggle .icon {
-	margin-right: .5em;
+	fill: #ddd;
+        margin-right: .5em;
 	top: 9px;
 	float: right;
 	margin-left: 9px;
-	fill: #ddd;
 }
 
 .toggled-on .menu-toggle .icon-bars,
@@ -3369,7 +3369,7 @@ embed, iframe, object {
 	}
 	
 	.navigation-top .wrap {
-		max-width: 1000px;
+		max-width: 1200px;
 	/* The font size is 14px here and we need 50px padding in ems */
 		padding: .75em 3.4166666666667em;
 	}
@@ -3394,7 +3394,7 @@ embed, iframe, object {
 	
 	/* Main Navigation */
 	.js .menu-toggle, .js .dropdown-toggle {
-		display: block;
+		display: none;
 		float: right;
 		font-size: 3em;
 		padding: 0;
@@ -3975,7 +3975,7 @@ embed, iframe, object {
 @media screen and (min-width: 67em) {
 	/* Navigation */
 	.navigation-top .wrap {
-		padding: .75em 2em;
+		padding: 0;
 	}
 	
 	.navigation-top nav {
