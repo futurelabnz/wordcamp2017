@@ -1399,7 +1399,6 @@ a:focus .nav-title, a:hover .nav-title {
 	top: 9px;
 	float: right;
 	margin-left: 9px;
-	/* color: #fff; */
 	fill: #ddd;
 }
 
@@ -4203,7 +4202,27 @@ embed, iframe, object {
 		padding: 0;
 	}
 }
-
+.colors-dark .site-content-contain{
+    background-color: #0055ff;  
+}
+.colors-dark .entry-title a,
+.colors-dark .widget a,
+.colors-dark .widget a:hover{
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.widget.widget_text h2{
+    display: none;
+}
+.buy-tickets{
+    text-decoration: none;
+    border: 4px #fff solid;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
 
 
 /*# sourceMappingURL=style.css.map */
