@@ -4222,6 +4222,13 @@ embed, iframe, object {
     font-size: 2em;
     text-transform: uppercase;
 }
+.colors-dark .navigation-top{
+    background-color: rgba(0, 85, 255, 0.5);
+    border: 0;
+}
+.colors-dark .navigation-top .wrap{
+    opacity: 1;
+}
 
 
 /*# sourceMappingURL=style.css.map */
