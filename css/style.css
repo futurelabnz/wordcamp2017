@@ -3763,8 +3763,7 @@ embed, iframe, object {
 	}
 	
 	body.page-two-column:not(.archive) #primary .entry-content, body.page-two-column #comments {
-		float: right;
-		width: 58%;
+		width: 100%%;
 	}
 	
 	.blog .site-main > article, .archive .site-main > article, .search .site-main > article {
