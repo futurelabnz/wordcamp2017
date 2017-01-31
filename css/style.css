@@ -3429,7 +3429,7 @@ embed, iframe, object {
 	.main-navigation > div > ul {
 		border: 0;
 		margin-bottom: 0;
-		padding: 0;
+		padding: 6px 0 0;
 	}
 	
 	.main-navigation li {
@@ -4232,6 +4232,8 @@ embed, iframe, object {
 .colors-dark .navigation-top .wrap{
     opacity: 1;
 }
-
+.colors-dark .main-navigation ul{
+    background: transparent;
+}
 
 /*# sourceMappingURL=style.css.map */
