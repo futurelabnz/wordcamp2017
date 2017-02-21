@@ -702,7 +702,8 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home
 	max-height: 560px;
 }
 
-p.site-title {
+p.site-title,
+h1.site-title {
 	display: none;
 }
 .site-description {
