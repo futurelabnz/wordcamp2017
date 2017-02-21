@@ -729,3 +729,13 @@ p.site-title {
     	padding: 1em 0.75em;
 	}
 }
+
+.footer-widget-1 {
+	width: 100%;
+}
+
+.sponsor-logo,
+.sponsor-logo img {
+	box-shadow: none;
+	text-align: center;
+}
