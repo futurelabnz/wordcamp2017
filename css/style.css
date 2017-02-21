@@ -702,7 +702,7 @@ body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home
 	max-height: 560px;
 }
 
-h1.site-title {
+p.site-title {
 	display: none;
 }
 .site-description {
@@ -721,5 +721,11 @@ h1.site-title {
 
 	.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
 		top: 10%;
+	}
+}
+
+@media screen and (min-width: 48em) {
+	.main-navigation a {
+    	padding: 1em 0.75em;
 	}
 }
