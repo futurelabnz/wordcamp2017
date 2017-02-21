@@ -1,7 +1,13 @@
+html {
+	color: black;
+	font-family: 'Space Mono', monospace;
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
 .colors-dark .navigation-top {
 	top: 0;
 	bottom: auto;
-	/*background: rgba(0,85,255,0.5) !important;*/
 }
 body.colors-dark,
 .colors-dark .site-content-contain,
