@@ -764,3 +764,12 @@ h1.site-title {
 	border: #fff solid;
 	border-width: 1px 0;
 }
+
+.wcorg-sponsors h2{
+	font-weight: bold;
+	text-align: right;
+	background-color: #00DFFF;
+	padding: 5px;
+	margin-bottom: 0;
+	color: #fff;
+}
