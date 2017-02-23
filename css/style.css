@@ -752,3 +752,15 @@ h1.site-title {
 	box-shadow: none;
 	text-align: center;
 }
+
+.wcorg-sponsors img{
+	max-width: 400px;
+	float: left;
+	margin-right: 15px;
+}
+.wcorg-sponsors h3{
+	text-align: center;
+	font-size: 32px;
+	border: #fff solid;
+	border-width: 1px 0;
+}
