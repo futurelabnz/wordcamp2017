@@ -723,6 +723,18 @@ h1.site-title {
 	.has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding {
 		top: 10%;
 	}
+	.site-description {
+		font-size: 20px;
+		padding-top: 1.25em;
+	}
+	.site-branding .custom-logo-link,
+	.site-branding .custom-logo-link img{
+		height: 280px;
+		width: 280px;
+		max-width: 280px;
+		max-height: 280px;
+	}
+	
 }
 
 @media screen and (min-width: 48em) {
