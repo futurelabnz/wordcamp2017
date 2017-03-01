@@ -774,3 +774,14 @@ h1.site-title {
 	color: #fff;
 	margin-top: 80px;
 }
+
+#tix-attendees li{
+    height: auto;
+}
+#tix-attendees a.tix-field{
+    box-shadow: none;
+    font-weight: bold;
+}
+#tix-attendees a.tix-field:nth-child(2){
+    display: none;
+}
